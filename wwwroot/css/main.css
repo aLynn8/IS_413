@@ -1,4 +1,6 @@
-﻿body {
+﻿/*Aubrey Farnbach (Wright) Section 2 Group 1*/
+
+body {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: #f7f7f7;
     color: #585858;
@@ -11,11 +13,13 @@ label{
     display: inline-block;
 }
 
+/* Container that holds the floating divs*/
 .float-container {
     border: 3px solid #fff;
     padding: 0px;
 }
 
+/*Left floating div*/
 .float-child-l {
     width: 45.5%;
     height: 350px;
@@ -24,6 +28,7 @@ label{
     border: 2px solid grey;
 }
 
+/*Right floating div*/
 .float-child-r {
     width: 45.5%;
     height: 350px;
@@ -32,7 +37,7 @@ label{
     border: 2px solid grey;
 }
 
-/*All the css after this was copied for the dinosaur game and I only made small changes to it*/
+/*All the css after this was copied for the dinosaur game and I only made small changes to it, please ignore (aside from enjoying the dinosaur game)*/
 
 a {
     color: #585858;
